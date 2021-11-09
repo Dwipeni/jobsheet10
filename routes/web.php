@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::resource('articles', ArticleController::class);
+
+Route::put('/edit','ArticleController@update');
